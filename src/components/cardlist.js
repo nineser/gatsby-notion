@@ -5,7 +5,7 @@ import { css } from "@emotion/core"
 import tw from "tailwind.macro"
 
 
-const cardList= css`
+const ListArr= css`
   ${tw`flex flex-wrap -mx-2 overflow-hidden`};
 `;
 
@@ -101,7 +101,7 @@ const CardList = (props) => {
 
     return (
       <div style={{minHeight:`320px`}}>
-        <div css={cardList}>
+        <div css={ListArr}>
           {Cards}
         </div>
       </div>

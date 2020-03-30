@@ -2,7 +2,7 @@
 import React from "react"
 
 import CategoryList from "./CategoryList.js"
-import CardList from "./Cardlist.js"
+import CardList from "./CardList.js"
 
 class Main extends React.Component{
 
