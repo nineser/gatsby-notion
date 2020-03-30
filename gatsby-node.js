@@ -29,7 +29,7 @@ exports.createPages = async ({ graphql, actions }) => {
   posts.forEach(({ slug }) => {
     createPage({
       path: `posts/${slug}`,
-      component: path.resolve(`./src/templates/blogPost.js`),
+      component: path.resolve(`./src/templates/BlogPost.js`),
       context: {
         // Data passed to context is available
         // in page queries as GraphQL variables.
@@ -53,7 +53,7 @@ exports.createPages = async ({ graphql, actions }) => {
   tags.forEach(tag =>{
     createPage({
       path: `/${_.kebabCase(tag)}/`,
-      component: path.resolve("src/templates/blogTag.js"),
+      component: path.resolve("src/templates/BlogTag.js"),
       context:{
         tag
       }

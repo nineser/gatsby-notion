@@ -12,7 +12,7 @@ const showcase = css`
   object-fit: cover;
 `
 
-const Imgcase = (props) => {
+const ImgCase = (props) => {
   
   return (
     <div>
@@ -21,4 +21,4 @@ const Imgcase = (props) => {
   )
 }
 
-export default Imgcase;
+export default ImgCase;

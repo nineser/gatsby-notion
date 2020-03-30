@@ -1,19 +1,17 @@
 import React from "react"
 import { graphql } from "gatsby"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import TopBar from "../components/topbar"
+import Layout from "../components/Layout"
+import SEO from "../components/SEO"
+import TopBar from "../components/TopBar"
 import ImgCase from "../components/ImgCase"
 import Intro from "../components/Intro"
-import Main  from "../components/main"
-import Footer from "../components/footer"
+import Main  from "../components/Main"
+import Footer from "../components/Footer"
 
-//import PostItem from "../components/postItem"
 
 const IndexPage = (props) => {
   const { data: { allPosts } } = props
-  //console.log(allPosts)
   return (
     <Layout>
       <SEO title="My Note"/>
