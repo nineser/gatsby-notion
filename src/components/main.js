@@ -8,7 +8,6 @@ class Main extends React.Component{
 
   constructor(props){
     super(props);
-    console.log(props);
     this.state = {
       categoryArr:props.categoryArr.group,
       nowCategory: props.categoryArr.group[0].fieldValue

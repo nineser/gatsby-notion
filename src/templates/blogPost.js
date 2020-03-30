@@ -45,7 +45,7 @@ const postInfo = css`
 `
 
 export default ({ data }) => {
-  console.log(data);
+
   const { posts: { title, tags, publish_date, html } } = data
   return (
     <Layout>
