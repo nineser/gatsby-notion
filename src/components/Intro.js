@@ -3,8 +3,6 @@ import React from "react"
 import {useStaticQuery,graphql} from "gatsby"
 import { css } from "@emotion/core"
 
-const headPic = "https://www.laijunjie.com/static/headPic-a2980019266e83dc4beabf766b422012.jpg"
-
 const container = css`
   max-width: 85%;
   margin-bottom: 0.5em;
@@ -60,7 +58,6 @@ const Intro = () => {
   );
   return (
     <div css={container}>
-      <img css={headImg} alt="headImg" src={headPic}/>
       <span css={author}>{data.site.siteMetadata.author}</span>
       <p css={quote}>{data.site.siteMetadata.quote}</p>
     </div>

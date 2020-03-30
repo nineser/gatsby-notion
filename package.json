@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-notion",
+  "name": "gatsby-notion",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby and Notion",
+  "description": "A simple demo with Gatsby and Notion",
   "version": "0.1.0",
-  "author": "Mayne Yao <dreama9ain@gmail.com>",
+  "author": "laijunjie",
   "dependencies": {
     "@emotion/core": "^10.0.28",
     "gatsby": "^2.18.8",
