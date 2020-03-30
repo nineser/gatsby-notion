@@ -43,12 +43,9 @@ const TopBar = (props) => {
       <Link to = {`/`}>
         <span css={title}>{data.site.siteMetadata.title} / {props.subLink}</span>
       </Link>
-      <div>
-        <a href={notionLink} rel="noopener noreferrer" target="_blank">Notion</a>
-        <Link to = {`/`}>
-          <span css={title}>About</span>
-        </Link>
-      </div>
+      <Link to = {`/`}>
+        <span css={title}>About</span>
+      </Link>
     </div>
   )
 }
