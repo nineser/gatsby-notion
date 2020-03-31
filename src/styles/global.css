@@ -14,5 +14,5 @@ img{
 }
 
 div.notion-selectable{
-  max-width: 100% !import; 
+    max-width: none !important; 
 }
