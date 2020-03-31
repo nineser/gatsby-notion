@@ -63,7 +63,7 @@ export default ({ data }) => {
             <ListItem keyName="Category" val="Category" />
             <ListItem keyName="Tag" val={tags && tags.join(',')}/>
           </div>
-          <div css={postInfo}>落花有意随流水，流水无情恋落花</div>
+          <div css={postInfo}>此处待设定</div>
           <div className={`markdown-body`}> 
             <div dangerouslySetInnerHTML={{ __html: html }} />
           </div>
