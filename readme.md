@@ -1,3 +1,17 @@
-## 介绍
+## 概述
 
 基于 Gatsby + Tailwind 开发，以 Notion 为数据源
+
+[Live Preview](https://www.laijunjie.com)
+
+## 风格参照
+
+来自于 [Notion](https://www.notion.so/)
+
+## 起因
+
+国内访问 Notion 加载慢
+
+## 特点
+
+首页不展示文章列表，只展示标签和分类
