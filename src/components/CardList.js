@@ -4,7 +4,6 @@ import {useStaticQuery,Link,graphql} from "gatsby"
 import { css } from "@emotion/core"
 import tw from "tailwind.macro"
 
-
 const ListArr= css`
   ${tw`flex flex-wrap -mx-2 overflow-hidden`};
 `;
@@ -106,7 +105,6 @@ const CardList = (props) => {
         </div>
       </div>
     )
-
 
 }
 export default CardList;

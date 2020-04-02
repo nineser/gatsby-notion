@@ -21,8 +21,6 @@ const title = css`
   text-decoration: none;
 `;
 
-const notionLink = "https://www.notion.so/laijunjie/07b3b0605b01406782dd2fd74742992a?v=c912183e7aa54e4ca27b5a6d9e95a6d9"
-
 
 const TopBar = (props) => {
   
@@ -43,7 +41,7 @@ const TopBar = (props) => {
       <Link to = {`/`}>
         <span css={title}>{data.site.siteMetadata.title} / {props.subLink}</span>
       </Link>
-      <Link to = {`/`}>
+      <Link to = {`/posts/b3e50deaeb7d4734bf84e15bbf2787c3`}>
         <span css={title}>About</span>
       </Link>
     </div>
