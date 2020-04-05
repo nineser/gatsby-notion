@@ -48,8 +48,6 @@ exports.createPages = async ({ graphql, actions }) => {
 
   tags = _.uniq(tags)
 
-  console.log(_.kebabCase(tags));
-
   tags.forEach(tag =>{
     createPage({
       path: `/${_.kebabCase(tag)}/`,
