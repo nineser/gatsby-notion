@@ -59,8 +59,8 @@ export default ({ data }) => {
           <h1 style={{marginBottom: `25px`,fontSize: `2.5em`}}>{title}</h1>
           <div style={{margin:`0px`,padding: `4px 0 8px 0`,fontSize:`14px`}}>
             <ListItem keyName="Created" val={publish_date}/>
-            <ListItem keyName="Last Edited" val="Last Edited" />
-            <ListItem keyName="Category" val="Category" />
+            <ListItem keyName="Last Edited" val={last_edited} />
+            <ListItem keyName="Category" val={category} />
             <ListItem keyName="Tag" val={tags && tags.join(',')}/>
           </div>
           <div css={postInfo}>此处待设定</div>
@@ -78,8 +78,10 @@ export const query = graphql`
     posts(slug: { eq: $slug }) {
       html
       title
+      category
       tags
       publish_date
+      last_edited
     }
   }
 `

@@ -1,7 +1,7 @@
 {
   "name": "gatsby-notion",
   "private": true,
-  "description": "A simple demo with Gatsby and Notion",
+  "description": "A simple note with Gatsby and Notion",
   "version": "0.1.0",
   "author": "laijunjie",
   "dependencies": {

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `9ser's Notion`,
-    description: `build site with gatsby & notion`,
+    description: `build with gatsby & notion`,
     author: `@9ser`,
     quote: `成长，最遗憾的部分在于，总在最无知的年华，遇见最好的你，却不自知`
   },
@@ -22,8 +22,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-notion`,
-        short_name: `starter`,
+        name: `9Ser's note`,
+        short_name: `note`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,

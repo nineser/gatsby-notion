@@ -101,25 +101,21 @@ export default ({data}) => {
 
   const post = data.allPosts.edges;
 
-  console.log(post);
-
-    const Cards = post.map(( {node} ) => (
-      <div key={node.title} css={cardContainer}>
-        <Link to={'posts/'+node.slug}>
-          <div css={card}>
-            <div>
-              <img alt="cover" src={node.cover} css={postCover}/>
-            </div> 
-            <div css={titleContainer}>
-              <h4 css={title}>{node.title}</h4>
-              <h4 css={title} style={{fontSize:`12px`,color:`rgba(55, 53, 47, 0.4)`}}>{node.publish_date}</h4>
-            </div> 
-          </div>
-        </Link>
-      </div>
-    ));
-
-
+  const Cards = post.map(( {node} ) => (
+    <div key={node.title} css={cardContainer}>
+      <Link to={'posts/'+node.slug}>
+        <div css={card}>
+          <div>
+            <img alt="cover" src={node.cover} css={postCover}/>
+          </div> 
+          <div css={titleContainer}>
+            <h4 css={title}>{node.title}</h4>
+            <h4 css={title} style={{fontSize:`12px`,color:`rgba(55, 53, 47, 0.4)`}}>{node.publish_date}</h4>
+          </div> 
+        </div>
+      </Link>
+    </div>
+  ));
 
   return (
     <Layout>

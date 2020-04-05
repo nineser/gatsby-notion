@@ -4,10 +4,6 @@
 
 [theme Preview](https://www.laijunjie.com)
 
-## 风格参照
-
-来自于 [Notion](https://www.notion.so/)
-
 ## 起因
 
 国内访问 Notion 加载慢
