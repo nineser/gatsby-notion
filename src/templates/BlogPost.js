@@ -46,7 +46,7 @@ const postInfo = css`
 
 export default ({ data }) => {
 
-  const { posts: { title, tags, publish_date, html } } = data
+  const { posts: { title, tags, publish_date, html, last_edited} } = data
   return (
     <Layout>
       <SEO title={title} />
